@@ -8,3 +8,10 @@
 - [x] all actors can send messages to each other
 - [x] interface for creating an actor and sending a message is the same for both the main thread and other actors
 - [ ] hook into react with a redux `connect` like decorator
+
+## See it in action
+```
+cd ./static/
+python -m SimpleHTTPServer
+open http://localhost:8000
+```
