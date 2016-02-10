@@ -15,3 +15,5 @@ cd ./static/
 python -m SimpleHTTPServer
 open http://localhost:8000
 ```
+
+or visit: [http://workers_0002.surge.sh/](http://workers_0002.surge.sh/)
