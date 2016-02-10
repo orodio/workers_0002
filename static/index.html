@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      * { font-family:helvetica; padding:0; margin:0; outline:none; text-decoration:none; color:#333; }
+      h1 { font-size:21px; line-height:34px; }
+      #counters { margin-top:13px; }
+      .name, .button, .count { display:inline-block; padding:5px; }
+      .name { min-width:80px; }
+      .count { min-width:50px; text-align:center;}
+    </style>
+  </head>
+  <body>
+    <h1>Total: <span id="total">0</span></h1>
+    <div>
+      <input id="new_counter"/>
+      <button id="new_counter_submit">Add</button>
+    </div>
+    <div id="counters"></div>
+    <div><strong>Winner:</strong> <span id="winner"></span></div>
+    <script src="app.js"></script>
+  </body>
+</html>

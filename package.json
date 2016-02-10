@@ -1,0 +1,24 @@
+{
+  "name": "workers_0002",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "exact": "^0.1.0",
+    "webpack": "^1.12.13"
+  }
+}
